@@ -6,15 +6,14 @@ import java.util.Arrays;
  * Hello world!
  *
  */
-public class App 
-{
+public class App {
     public static void main(String[] args) {
         int k;
         double A = 0, B = 0, i, j;
         double[] z = new double[1760];
         char[] b = new char[1760];
         System.out.print("\u001b[2J");
-        for (; ; ) {
+        for (;;) {
             Arrays.fill(b, 0, 1760, ' ');
             Arrays.fill(z, 0, 1760, 0);
             for (j = 0; 6.28 > j; j += 0.07)
@@ -36,7 +35,8 @@ public class App
                             N = (int) (8 * ((f * e - c * d * g) * m - c * d * e - f * g - l * d * n));
                     if (22 > y && y > 0 && x > 0 && 80 > x && D > z[o]) {
                         z[o] = D;
-                        b[o] = new char[]{'.', ',', '-', '~', ':', ';', '=', '!', '*', '#', '$', '@'}[Math.max(N, 0)];
+                        b[o] = new char[] { '.', ',', '-', '~', ':', ';', '=', '!', '*', '#', '$', '@' }[Math.max(N,
+                                0)];
                     }
                 }
             System.out.print("\u001b[H");
